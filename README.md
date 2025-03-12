@@ -27,4 +27,4 @@ A Python tool to detect phishing URLs with advanced checks.
 - `http://testsafebrowsing.appspot.com/s/phishing.html` → Risk: 50+ (Suspicious)
 
 ## Demo
-![Batch Scan Demo](demo.jpg)
+![Batch Scan Demo](demo.png)
