@@ -1,4 +1,4 @@
-# My PhishGuard 
+# My PhishGuard
 Built for Brainwave Matrix Solutions Internship - March 2025 by Nirpesh551
 
 ## What It Does
@@ -25,3 +25,6 @@ A Python tool to detect phishing URLs with advanced checks.
 ## Example
 - `https://google.com` → Risk: 0 (Safe)
 - `http://testsafebrowsing.appspot.com/s/phishing.html` → Risk: 50+ (Suspicious)
+
+## Demo
+![Batch Scan Demo](demo.jpg)

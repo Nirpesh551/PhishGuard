@@ -70,7 +70,7 @@ def google_safe_check(url):
     if MY_API_KEY == "put-your-key-here":
         return 0, f"{Fore.RED}No valid API key provided{Style.RESET_ALL}"
     data_to_send = {
-        "client": {"clientId": "MyPhishGuard", "clientVersion": "2.0"},
+        "client": {"clientId": "MyPhishGuard", "clientVersion": "1.0"},
         "threatInfo": {
             "threatTypes": ["MALWARE", "SOCIAL_ENGINEERING"],
             "platformTypes": ["ANY_PLATFORM"],
@@ -141,7 +141,7 @@ def show_past_scans():
         print(f" - {scan['url']} → Risk: {scan['risk']} ({status})")
 
 # Start the program
-print(f"{Fore.CYAN}{Style.BRIGHT}=== My PhishGuard v2.0 - Nirpesh551 ==={Style.RESET_ALL}")
+print(f"{Fore.CYAN}{Style.BRIGHT}=== My PhishGuard - Nirpesh551 ==={Style.RESET_ALL}")
 while True:
     print("\nOptions:")
     print("1. Scan a single URL")
