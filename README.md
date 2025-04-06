@@ -1,5 +1,5 @@
-# My PhishGuard
-Built for Brainwave Matrix Solutions Internship - March 2025 by Nirpesh551
+# PhishGuard
+A cybersecurity tool 
 
 ## What It Does
 A Python tool to detect phishing URLs with advanced checks.
@@ -11,8 +11,8 @@ A Python tool to detect phishing URLs with advanced checks.
 - Logs scan history.
 
 ## How to Run
-1. Clone: `git clone https://github.com/Nirpesh551/Brainwave_Matrix_Intern.git`
-2. Cd: `cd Brainwave_Matrix_Intern`
+1. Clone: `git clone https://github.com/Nirpesh551/PhishGuard.git`
+2. Cd: `cd PhishGuard`
 3. Env: `python3 -m venv myenv`
 4. Activate: `source myenv/bin/activate`
 5. Install: `pip install requests colorama python-whois`
